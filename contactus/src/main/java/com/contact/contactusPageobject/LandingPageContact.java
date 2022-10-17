@@ -6,19 +6,26 @@ import java.util.Set;
 
 	import org.openqa.selenium.WebDriver;
 	import org.openqa.selenium.WebElement;
-	import org.openqa.selenium.support.FindBy;
+
+import org.openqa.selenium.support.FindBy;
 	import org.openqa.selenium.support.PageFactory;
+
 
 
 
 	public class LandingPageContact {
 	    
 	    WebDriver driver;
+	  
+	   
 	    public LandingPageContact(WebDriver driver)
 	    {
 	        this.driver= driver;
 	        PageFactory.initElements(driver, this);
+	    
 	    }
+	   
+	    
 	     
 	    @FindBy(xpath="/html/body/nav/div/ul/li[4]/a")
 	    WebElement support;
@@ -53,11 +60,17 @@ import java.util.Set;
 	        for(String handle : handles) {
 	            if(!handle.equals(parenthandle)) {
 	                driver.switchTo().window(handle);
+	                
 	        Username.sendKeys(username);
 	        Email.sendKeys(email);
+	        
 	        Phoneno.sendKeys(Phone);
 	        Message.sendKeys(message);
+	       
 	        submit.click();
+	        driver.close();
+	        driver.quit();
+	        
 	            }
 	        }
 	        }

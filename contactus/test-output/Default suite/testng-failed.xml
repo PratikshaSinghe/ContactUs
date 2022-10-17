@@ -5,7 +5,7 @@
     <classes>
       <class name="com.contact.contactus.ContactUs">
         <methods>
-          <include name="contactus"/>
+          <include name="contactus" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.contact.contactus.ContactUs -->
     </classes>

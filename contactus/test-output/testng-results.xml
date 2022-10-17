@@ -1,56 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-20T09:45:38 IST" name="Suite" finished-at="2022-09-20T09:46:03 IST" duration-ms="24732">
+  <suite started-at="2022-10-17T15:07:46 IST" name="Default suite" finished-at="2022-10-17T15:08:05 IST" duration-ms="19041">
     <groups>
     </groups>
-    <test started-at="2022-09-20T09:45:38 IST" name="Test" finished-at="2022-09-20T09:46:03 IST" duration-ms="24732">
-      <class name="com.contact.contactus.SignUp">
-        <test-method signature="SignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.contact.contactus.SignUp@5fbdfdcf]" started-at="2022-09-20T09:45:38 IST" name="SignUp" data-provider="SignUp" finished-at="2022-09-20T09:45:45 IST" duration-ms="6200" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Madhu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Patil]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[madhu@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[abc@123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[09/09/2000]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[878946657]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[this is text]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUp -->
-      </class> <!-- com.contact.contactus.SignUp -->
+    <test started-at="2022-10-17T15:07:46 IST" name="Default test" finished-at="2022-10-17T15:08:05 IST" duration-ms="19041">
       <class name="com.contact.contactus.ContactUs">
-        <test-method signature="contactus(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.contact.contactus.ContactUs@1da2cb77]" started-at="2022-09-20T09:45:54 IST" name="contactus" data-provider="contactus" finished-at="2022-09-20T09:45:58 IST" duration-ms="3809" status="PASS">
+        <test-method signature="contactus(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.contact.contactus.ContactUs@5acf93bb]" started-at="2022-10-17T15:07:46 IST" name="contactus" data-provider="contactus" finished-at="2022-10-17T15:07:57 IST" duration-ms="10978" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,11 +29,16 @@
                 <![CDATA[this is message]]>
               </value>
             </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactus -->
-        <test-method signature="contactus(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.contact.contactus.ContactUs@1da2cb77]" started-at="2022-09-20T09:45:58 IST" name="contactus" data-provider="contactus" finished-at="2022-09-20T09:46:03 IST" duration-ms="5255" status="PASS">
+        <test-method signature="contactus(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.contact.contactus.ContactUs@5acf93bb]" started-at="2022-10-17T15:07:57 IST" name="contactus" data-provider="contactus" finished-at="2022-10-17T15:08:05 IST" duration-ms="8013" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,45 +60,16 @@
                 <![CDATA[this is message]]>
               </value>
             </param>
+            <param index="4">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactus -->
       </class> <!-- com.contact.contactus.ContactUs -->
-      <class name="com.contact.contactus.SignIn">
-        <test-method signature="signin(java.lang.String,java.lang.String)[pri:0, instance:com.contact.contactus.SignIn@611889f4]" started-at="2022-09-20T09:45:45 IST" name="signin" data-provider="signin" finished-at="2022-09-20T09:45:49 IST" duration-ms="4674" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pratiksha]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pratt617]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signin -->
-        <test-method signature="signin(java.lang.String,java.lang.String)[pri:0, instance:com.contact.contactus.SignIn@611889f4]" started-at="2022-09-20T09:45:49 IST" name="signin" data-provider="signin" finished-at="2022-09-20T09:45:54 IST" duration-ms="4722" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[12344]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[@#$$%%]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signin -->
-      </class> <!-- com.contact.contactus.SignIn -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

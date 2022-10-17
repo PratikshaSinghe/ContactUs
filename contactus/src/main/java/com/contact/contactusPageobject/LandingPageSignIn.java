@@ -4,6 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
+
 
 public class LandingPageSignIn {
 
@@ -29,14 +32,21 @@ public class LandingPageSignIn {
 	    @FindBy(xpath="//*[@type='submit']")
 	     WebElement login;
 	     
-	    public void Signin(String name, String passwordd) throws InterruptedException
+	    public void Signin(String name, String password) throws InterruptedException
 	     {
 	        signinbutton.click();
 	         Username.sendKeys(name);
 	         Thread.sleep(1000);
-	         Password.sendKeys(passwordd);
+	         Password.sendKeys(password);
 	         Thread.sleep(1000);
 	         login.click();
+	         String ActualTitle = driver.getTitle();
+	         String ExpectedTitle = "Mobile";
+	         Assert.assertEquals(ActualTitle, ExpectedTitle);
+	       
+	         
+	         driver.quit();
+
 	     }
 	       public void goTo()
 	         {

@@ -76,6 +76,7 @@ public class LandingPageSignUp {
 	    register.click();
 	    Thread.sleep(1000);
 	    driver.switchTo().alert().accept();
+	    driver.quit();
 	   
 	    
 	    }
